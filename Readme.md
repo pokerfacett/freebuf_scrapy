@@ -33,4 +33,18 @@
  
     浏览器代理，可直接import
 ## **freebuf_lexicon_handle**文件夹
-负责对爬取的关键词进行格式化处理，去重，去空格
+- lexicon_handle.py
+	
+	对爬取的词库进行预处理，去掉空格等，形成lexicon_final.txt词库
+- lexicon_final.txt
+	
+	最终形成的词库
+- test.txt
+	
+	爬取的未处理的词库
+- lexicon_match.py
+	
+	将文章的标题和内容进行词库查询与匹配
+- config.cfg
+	
+	数据库配置文件
